@@ -1,5 +1,5 @@
 module ArtistsHelper
-  def display_artist(artist)
+  def display_artist(song)
     if artist
       link_to "<%= artist.name %>", artist_path(artist)
     else #not associated with a song
